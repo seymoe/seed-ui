@@ -32,3 +32,7 @@ yarn run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+[https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
+
+[https://github.com/ElemeFE/element/blob/dev/packages/theme-chalk/src/common/var.scss](https://github.com/ElemeFE/element/blob/dev/packages/theme-chalk/src/common/var.scss)
