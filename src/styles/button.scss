@@ -1,0 +1,21 @@
+.se-button{
+  padding: 6px 20px;
+  color: $color-white;
+  background-color: $color-primary;
+}
+
+.se-button--primary{
+  background-color: $color-primary;
+}
+.se-button--success{
+  background-color: $color-success;
+}
+.se-button--warning{
+  background-color: $color-warning;
+}
+.se-button--danger{
+  background-color: $color-danger;
+}
+.se-button--info{
+  background-color: $color-info;
+}
