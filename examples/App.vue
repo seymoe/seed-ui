@@ -4,14 +4,22 @@
       <router-link to="/">Home</router-link>
     </div>
     <se-button
-      type="success">点击</se-button>
+      type="success"
+      native-type="submit"
+      autofocus
+      @click="handleClick"
+      >这是一个按钮</se-button>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-
+  methods: {
+    handleClick(e) {
+      console.log(e)
+    }
+  }
 }
 </script>
 

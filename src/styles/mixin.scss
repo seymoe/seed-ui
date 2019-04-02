@@ -1,0 +1,4 @@
+// 设置button hover背景色
+@mixin button-background($backcolor) {
+  background-color: mix($color-white, $backcolor, 50%);
+}

@@ -6,3 +6,30 @@ $color-info: #909399 !default;
 
 $color-white: #ffffff !default;
 $color-black: #000000 !default;
+
+$border-color-base: #DCDFE6 !default;
+
+// 字体相关
+
+$font-size-small: 12px !default;
+$font-size-base: 14px !default;
+$font-size-medium: 16px !default;
+$font-size-large: 18px !default;
+$font-size-extra-large: 20x !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+$font-weight-thin: 100 !default;
+
+// 边框相关
+
+$border-width-base: 1px !default;
+$border-style-base: solid !default;
+$border-color-hover: $color-white !default;
+$border-base: $border-width-base $border-style-base $border-color-base !default;
+$border-radius-base: 4px !default;
+$border-radius-small: 2px !default;
+$border-radius-circle: 100% !default;
+
+// 组件 - Button
+$button-vertical-padding: 14px !default;
+$button-horizontal-padding: 20px !default;

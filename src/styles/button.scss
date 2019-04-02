@@ -1,21 +1,53 @@
 .se-button{
-  padding: 6px 20px;
+  display: block;
+  width: 100%;
+  padding: $button-vertical-padding $button-horizontal-padding;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: $font-size-base;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  transition: .1s;
+  border: $border-base;
+  outline: none;
+  -webkit-appearance: none;
   color: $color-white;
+  border-radius: $border-radius-base;
   background-color: $color-primary;
+  &:hover{
+    color: $border-color-hover;
+  }
 }
 
 .se-button--primary{
   background-color: $color-primary;
+  &:hover{
+    @include button-background($color-primary);
+  }
 }
 .se-button--success{
   background-color: $color-success;
+  &:hover{
+    @include button-background($color-success);
+  }
 }
 .se-button--warning{
   background-color: $color-warning;
+  &:hover{
+    @include button-background($color-warning);
+  }
 }
 .se-button--danger{
   background-color: $color-danger;
+  &:hover{
+    @include button-background($color-danger);
+  }
 }
 .se-button--info{
   background-color: $color-info;
+  &:hover{
+    @include button-background($color-info);
+  }
 }

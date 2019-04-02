@@ -2,7 +2,11 @@
   <button
     class="se-button"
     :class="['se-button--' + type, 'se-button--' + size]"
-    :disabled="disabled">
+    :disabled="disabled"
+    :type="nativeType"
+    :autofocus="autofocus"
+    @click="handleClick"
+    >
       <slot>确定</slot>
     </button>
 </template>
@@ -22,6 +26,19 @@ export default {
     disabled: {
       type: Boolean,
       default: false
+    },
+    nativeType: {
+      type: String,
+      default: 'button'
+    },
+    autofocus: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    handleClick(event) {
+      this.$emit('click', event)
     }
   }
 }
