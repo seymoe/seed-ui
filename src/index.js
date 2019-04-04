@@ -1,8 +1,10 @@
 import Button from '~/button'
+import Calendar from '~/calendar'
 
 const SEED_UI_VERSION = '0.0.1'
 const components = [
-  Button
+  Button,
+  Calendar
 ]
 
 const install = function (Vue, options = {}) {

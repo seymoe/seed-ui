@@ -1,0 +1,23 @@
+.se-calendar{
+  width: 100%;
+  border: 1px solid #f8f8f8;
+  .se-calendar-header{
+    height: 40px;
+    justify-content: space-between;
+    .btn{
+      padding: 0 10px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .time-label{
+      flex: 1;
+    }
+  }
+  .se-calendar-content{
+    flex-wrap: wrap;
+    .se-calendar-dateitem{
+      padding: 12px 0;
+      width: calc(100% / 7);
+    }
+  }
+}

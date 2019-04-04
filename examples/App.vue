@@ -9,6 +9,8 @@
       autofocus
       @click="handleClick"
       >这是一个按钮</se-button>
+
+    <se-calendar></se-calendar>
     <router-view/>
   </div>
 </template>
